@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>title</key>
+        <string>Pull Gestures</string>
+        <key>entry</key>
+        <dict>
+            <key>cell</key>
+            <string>PSLinkCell</string>
+            <key>label</key>
+            <string>Pull Gestures</string>
+        </dict>
+        <key>items</key>
+        <array>
+            <dict>
+                <key>cell</key>
+                <string>PSGroupCell</string>
+                <key>label</key>
+                <string>Top</string>
+                <key>footerText</key>
+                <string>If 'No Action', disappear image.</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSLinkListCell</string>
+                <key>default</key>
+                <string>6</string>
+                <key>defaults</key>
+                <string>jp.r-plus.Sleipnizer</string>
+                <key>key</key>
+                <string>PullDownAction</string>
+                <key>label</key>
+                <string>Pull down to</string>
+                <key>PostNotification</key>
+                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
+                <key>detail</key>
+                <string>GroupedListItemsController</string>
+                <key>id</key>
+                <string>PullDownAction</string>
+                <key>valuesDataSource</key>
+                <string>valuesSource:</string>
+                <key>titlesDataSource</key>
+                <string>titlesSource:</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSLinkListCell</string>
+                <key>default</key>
+                <string>65.0</string>
+                <key>defaults</key>
+                <string>jp.r-plus.Sleipnizer</string>
+                <key>key</key>
+                <string>PullDownThreshold</string>
+                <key>label</key>
+                <string>Threshold</string>
+                <key>PostNotification</key>
+                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
+                <key>detail</key>
+                <string>PSListItemsController</string>
+                <key>validValues</key>
+                <array>
+                    <string>65.0</string>
+                    <string>97.5</string>
+                    <string>130.0</string>
+                    <string>195.0</string>
+                </array>
+                <key>validTitles</key>
+                <array>
+                    <string>Normal (1x)</string>
+                    <string>Large (1.5x)</string>
+                    <string>Huge (2x)</string>
+                    <string>Gigantic for iPad (3x)</string>
+                </array>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSGroupCell</string>
+                <key>label</key>
+                <string>Bottom</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSLinkListCell</string>
+                <key>default</key>
+                <string>9</string>
+                <key>defaults</key>
+                <string>jp.r-plus.Sleipnizer</string>
+                <key>key</key>
+                <string>PullUpAction</string>
+                <key>label</key>
+                <string>Pull up to</string>
+                <key>PostNotification</key>
+                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
+                <key>detail</key>
+                <string>GroupedListItemsController</string>
+                <key>id</key>
+                <string>PullUpAction</string>
+                <key>valuesDataSource</key>
+                <string>valuesSource:</string>
+                <key>titlesDataSource</key>
+                <string>titlesSource:</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSLinkListCell</string>
+                <key>default</key>
+                <string>65.0</string>
+                <key>defaults</key>
+                <string>jp.r-plus.Sleipnizer</string>
+                <key>key</key>
+                <string>PullUpThreshold</string>
+                <key>label</key>
+                <string>Threshold</string>
+                <key>PostNotification</key>
+                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
+                <key>detail</key>
+                <string>PSListItemsController</string>
+                <key>validValues</key>
+                <array>
+                    <string>65.0</string>
+                    <string>97.5</string>
+                    <string>130.0</string>
+                    <string>195.0</string>
+                </array>
+                <key>validTitles</key>
+                <array>
+                    <string>Normal (1x)</string>
+                    <string>Large (1.5x)</string>
+                    <string>Huge (2x)</string>
+                    <string>Gigantic for iPad (3x)</string>
+                </array>
+            </dict>
+
+            <dict>
+                <key>cell</key>
+                <string>PSGroupCell</string>
+                <key>label</key>
+                <string>Left</string>
+                <key>footerText</key>
+                <string>Disable horizontal bounce if left and right action are set "No Action".</string> 
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSLinkListCell</string>
+                <key>default</key>
+                <string>0</string>
+                <key>defaults</key>
+                <string>jp.r-plus.Sleipnizer</string>
+                <key>key</key>
+                <string>PullRightAction</string>
+                <key>label</key>
+                <string>Pull right to</string>
+                <key>PostNotification</key>
+                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
+                <key>detail</key>
+                <string>GroupedListItemsController</string>
+                <key>id</key>
+                <string>PullRightAction</string>
+                <key>valuesDataSource</key>
+                <string>valuesSource:</string>
+                <key>titlesDataSource</key>
+                <string>titlesSource:</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSLinkListCell</string>
+                <key>default</key>
+                <string>65.0</string>
+                <key>defaults</key>
+                <string>jp.r-plus.Sleipnizer</string>
+                <key>key</key>
+                <string>PullRightThreshold</string>
+                <key>label</key>
+                <string>Threshold</string>
+                <key>PostNotification</key>
+                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
+                <key>detail</key>
+                <string>PSListItemsController</string>
+                <key>validValues</key>
+                <array>
+                    <string>65.0</string>
+                    <string>97.5</string>
+                    <string>130.0</string>
+                    <string>195.0</string>
+                </array>
+                <key>validTitles</key>
+                <array>
+                    <string>Normal (1x)</string>
+                    <string>Large (1.5x)</string>
+                    <string>Huge (2x)</string>
+                    <string>Gigantic for iPad (3x)</string>
+                </array>
+            </dict>
+
+            <dict>
+                <key>cell</key>
+                <string>PSGroupCell</string>
+                <key>label</key>
+                <string>Right</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSLinkListCell</string>
+                <key>default</key>
+                <string>0</string>
+                <key>defaults</key>
+                <string>jp.r-plus.Sleipnizer</string>
+                <key>key</key>
+                <string>PullLeftAction</string>
+                <key>label</key>
+                <string>Pull left to</string>
+                <key>PostNotification</key>
+                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
+                <key>detail</key>
+                <string>GroupedListItemsController</string>
+                <key>id</key>
+                <string>PullLeftAction</string>
+                <key>valuesDataSource</key>
+                <string>valuesSource:</string>
+                <key>titlesDataSource</key>
+                <string>titlesSource:</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSLinkListCell</string>
+                <key>default</key>
+                <string>65.0</string>
+                <key>defaults</key>
+                <string>jp.r-plus.Sleipnizer</string>
+                <key>key</key>
+                <string>PullLeftThreshold</string>
+                <key>label</key>
+                <string>Threshold</string>
+                <key>PostNotification</key>
+                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
+                <key>detail</key>
+                <string>PSListItemsController</string>
+                <key>validValues</key>
+                <array>
+                    <string>65.0</string>
+                    <string>97.5</string>
+                    <string>130.0</string>
+                    <string>195.0</string>
+                </array>
+                <key>validTitles</key>
+                <array>
+                    <string>Normal (1x)</string>
+                    <string>Large (1.5x)</string>
+                    <string>Huge (2x)</string>
+                    <string>Gigantic for iPad (3x)</string>
+                </array>
+            </dict>
+
+        </array>
+    </dict>
+</plist>

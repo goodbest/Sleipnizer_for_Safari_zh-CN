@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>values</key>
+  <array>
+    <array>
+      <string>0</string>
+    </array>
+    <array>
+<!--      <string>1</string>-->
+      <string>28</string>
+<!--      <string>2</string>-->
+      <string>29</string>
+      <string>13</string>
+      <string>14</string>
+      <string>3</string>
+      <string>12</string>
+<!--      <string>4</string>-->
+      <string>22</string>
+      <string>23</string>
+      <string>24</string>
+      <string>11</string>
+      <string>15</string>
+      <string>47</string>
+    </array>
+    <array>
+      <string>6</string>
+      <string>48</string>
+      <string>46</string>
+      <string>42</string>
+      <string>7</string>
+      <string>8</string>
+      <string>25</string>
+      <string>26</string>
+      <string>9</string>
+      <string>17</string>
+      <string>34</string>
+      <string>10</string>
+    </array>
+    <array>
+      <string>36</string>
+      <string>37</string>
+<!--      <string>31</string>-->
+      <string>45</string>
+      <string>44</string>
+      <string>33</string>
+      <string>32</string>
+      <string>39</string>
+      <string>18</string>
+    </array>
+<!--    <array>-->
+<!--      <string>35</string>-->
+<!--      <string>41</string>-->
+<!--    </array>-->
+    <array>
+      <string>40</string>
+      <string>43</string>
+<!--      <string>27</string>-->
+      <string>16</string>
+<!--      <string>19</string>-->
+<!--      <string>20</string>-->
+<!--      <string>21</string>-->
+<!--      <string>30</string>-->
+<!--      <string>38</string>-->
+<!--      <string>99</string>-->
+    </array>
+  </array>
+  <key>titles</key>
+  <array>
+    <array>
+      <string>No Action</string>
+    </array>
+    <array>
+<!--      <string>Go Left Tab</string> |+ 1 +|-->
+      <string>Go Left Tab</string>  <!-- 28 -->
+<!--      <string>Go Right Tab</string>  |+ 2 +|-->
+      <string>Go Right Tab</string>  <!-- 29 -->
+      <string>Go First Tab</string>  <!-- 13 -->
+      <string>Go Last Tab</string>  <!-- 14 -->
+      <string>Close Active Tab(and go left tab)</string>  <!-- 3 -->
+      <string>Close Active Tab(and go right tab)</string>  <!-- 12 -->
+<!--      <string>Close Active Tab(expose)</string>-->
+      <string>Close All Tabs</string>  <!-- 22 -->
+      <string>Close All Tabs Except Active</string>  <!-- 23 -->
+      <string>Close All Tabs and Exit</string>  <!-- 24 -->
+      <string>Go Tab Expose</string>  <!-- 11 -->
+      <string>Create New Blank Tab</string>  <!-- 15 -->
+      <string>Focus SearchBar at New Tab</string>  <!-- 47 -->
+    </array>
+    <array>
+      <string>Reload</string> <!-- 6 -->
+      <string>Reload All Tabs</string> <!-- 48 -->
+      <string>Reload All Error Tabs</string> <!-- 46 -->
+      <string>Stop Loading</string> <!-- 42 -->
+      <string>Go Back</string>  <!-- 7 -->
+      <string>Go Forward</string>  <!-- 8 -->
+      <string>Popover BackHistory</string>  <!-- 25 -->
+      <string>Popover ForwardHistory</string>  <!-- 26 -->
+      <string>Scroll to Top</string>  <!-- 9 -->
+      <string>Scroll to Top(quick)</string>  <!-- 17 -->
+      <string>Scroll to Bottom</string>  <!-- 34 -->
+      <string>Scroll to Bottom(quick)</string>  <!-- 10 -->
+    </array>
+    <array>
+      <string>Show Bookmark Pane</string>  <!-- 36 -->
+      <string>Show Activity</string>  <!-- 37 -->
+<!--      <string>FindOnPage(old)</string>  |+ 31 +|-->
+      <string>Focus SearchBar</string>  <!-- 45 -->
+      <string>Improved FindOnPage</string>  <!-- 44 -->
+      <string>Add to Reading List</string>  <!-- 33 -->
+      <string>Toggle Private Mode</string>  <!-- 32 -->
+      <string>Toggle Reader View</string>  <!-- 39 -->
+      <string>Run JavaScript</string>  <!-- 18 -->
+    </array>
+<!--    <array>-->
+<!--      <string>Toggle FullScreen</string>  |+ 35 +|-->
+<!--      <string>Show Toolbar for FullScreen</string>  |+ 41 +|-->
+<!--    </array>-->
+    <array>
+      <string>Safari Download Manager</string>  <!-- 40 -->
+      <string>Safari Download Enabler</string>  <!-- 43 -->
+<!--      <string>FullScreen for Safari</string>  |+ 27 +|-->
+      <string>RestoreTab</string>  <!-- 16 -->
+<!--      <string>BackForwardEnhancer(back)</string>  |+ 19 +|-->
+<!--      <string>BackForwardEnhancer(forward)</string>  |+ 20 +|-->
+<!--      <string>BackForwardList(back)</string>  |+ 21 +|-->
+<!--      <string>BackForwardList(forward)</string>  |+ 30 +|-->
+<!--            <string>Tweet</string>+|  |+ 38 -->
+<!--      <string>debug</string>  |+ 99 +|-->
+    </array>
+  </array>
+  <key>sectionHeaders</key>
+  <array>
+    <string></string>
+    <string>Tab Controll</string>
+    <string>Page Controll</string>
+    <string>Feature</string>
+<!--    <string>for iPad</string>-->
+    <string>Relate Cydia Package</string>
+  </array>
+  <key>sectionFooters</key>
+  <array>
+    <string></string>
+    <string></string>
+    <string></string>
+    <string></string>
+<!--    <string></string>-->
+    <string>Need to Download/Install via Cydia.</string>
+  </array>
+  <key>pl_filter</key>
+  <array>
+      <dict></dict><!-- No Action -->
+      <dict></dict><!-- TabControll -->
+      <dict></dict><!-- PageControll -->
+      <dict></dict><!-- Feature -->
+<!-- for iPad -->
+<!--      <dict>-->
+<!--          <key>CoreFoundationVersion</key>-->
+<!--          <array>-->
+<!--              <string>847.20</string>-->
+<!--          </array>-->
+<!--          <key>iPadOnly</key>-->
+<!--          <true/>-->
+<!--      </dict>-->
+      <dict></dict><!-- RelateCydiaPackage -->
+  </array>
+</dict>
+</plist>
