@@ -1,0 +1,16 @@
+"Pull Gestures"="拖动手势";
+"Top"="页面顶部";
+"If 'No Action', disappear image."="如果设置为'无动作',则不显示图像";
+"Pull down to"="向下拉,用于";
+"Normal (1x)"="普通 (1倍)";
+"Large (1.5x)"="较大 (1.5倍)";
+"Huge (2x)"="很大 (2倍)";
+"Gigantic for iPad (3x)"="巨大，用于iPad (3倍)";
+"Pull up to"="向上拉,用于";
+"Bottom"="页面底部";
+"Threshold"="阈值";
+"Left"="页面左侧";
+"Disable horizontal bounce if left and right action are set \"No Action\"."="如果左侧和右侧设置为'无动作',则禁用水平方向弹跳效果";
+"Pull right to"="向右拉,用于";
+"Right"="页面右侧";
+"Pull left to"="向左拉,用于";
