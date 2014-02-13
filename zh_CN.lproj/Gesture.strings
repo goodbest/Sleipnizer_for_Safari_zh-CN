@@ -1,0 +1,18 @@
+"Letter Gestures"="字母型手势";
+"Enabled"="启用";
+"Sensitivity"="灵敏度";
+"Sensitivity (pt)"="灵敏度 (像素)";
+"80 (default)"="80 (默认)";
+"200 (insensitive)"="200 (迟钝)";
+"\"L\" Letter Gestures"="划'L'型手势";
+"UL Action"="向上、向左滑动";
+"UR Action"="向上、向右滑动";
+"DL Action"="向下、向左滑动";
+"DR Action"="向下、向右滑动";
+"\"U\" Letter Gestures"="划'U'型手势";
+"ULD Action"="向上、向左、再向下滑动";
+"URD Action"="向上、向右、再向下滑动";
+"DLU Action"="向下、向左、再向上滑动";
+"DRU Action"="向下、向右、再向上滑动";
+"Glitchy Gestures"="实验性手势(暂不稳定)";
+"U=Up, D=Down, L=Left, R=Right"="字母型手势的动作要连贯且一气呵成，划出字母的形状";
