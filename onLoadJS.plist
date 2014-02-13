@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>title</key>
+        <string>onLoad JavaScript</string>
+        <key>items</key>
+        <array>
+            <dict>
+                <key>cell</key>
+                <string>PSGroupCell</string>
+                <key>footerText</key>
+                <string>"onLoad" JavaScripts will execute when page load is finished. Currently onLoad execution is activated only active tab.</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSSwitchCell</string>
+                <key>default</key>
+                <false/>
+                <key>defaults</key>
+                <string>jp.r-plus.Sleipnizer</string>
+                <key>key</key>
+                <string>onLoadJSActionEnabled</string>
+                <key>label</key>
+                <string>Enabled</string>
+                <key>PostNotification</key>
+                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
+            </dict>
+        </array>
+    </dict>
+</plist>
+

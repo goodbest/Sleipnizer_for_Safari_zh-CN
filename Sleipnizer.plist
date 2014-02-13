@@ -43,20 +43,6 @@
                 <key>defaults</key>
                 <string>jp.r-plus.Sleipnizer</string>
                 <key>key</key>
-                <string>GesturesEnabled</string>
-                <key>label</key>
-                <string>Letter Gestures Enabled</string>
-                <key>PostNotification</key>
-                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
-            </dict>
-            <dict>
-                <key>cell</key>
-                <string>PSSwitchCell</string>
-                <key>default</key>
-                <true/>
-                <key>defaults</key>
-                <string>jp.r-plus.Sleipnizer</string>
-                <key>key</key>
                 <string>TweetFormat</string>
                 <key>label</key>
                 <string>SocialFormatter Enabled</string>
@@ -124,6 +110,14 @@
                 <key>cell</key>
                 <string>PSLinkCell</string>
                 <key>detail</key>
+                <string>SleipnizerLetterGestureController</string>
+                <key>label</key>
+                <string>Letter Gestures</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSLinkCell</string>
+                <key>detail</key>
                 <string>SleipnizerPullToActionController</string>
                 <key>label</key>
                 <string>Pull Gestures</string>
@@ -138,7 +132,7 @@
             </dict>
             <dict>
                 <key>label</key>
-                <string>ActionPanel</string>
+                <string>Action Panel</string>
                 <key>cell</key>
                 <string>PSLinkCell</string>
                 <key>detail</key>
@@ -165,280 +159,45 @@
                 <key>cell</key>
                 <string>PSGroupCell</string>
                 <key>label</key>
-                <string>"L" Letter Gestures</string>
+                <string>JavaScript</string>
                 <key>footerText</key>
-                <string>U=Up, D=Down, L=Left, R=Right</string>
-            </dict>
-            <dict>
-                <key>cell</key>
-                <string>PSSwitchCell</string>
-                <key>default</key>
-                <true/>
-                <key>defaults</key>
-                <string>jp.r-plus.Sleipnizer</string>
-                <key>key</key>
-                <string>LLetterGesturesEnabled</string>
-                <key>label</key>
-                <string>Enabled</string>
-                <key>PostNotification</key>
-                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
-            </dict>
-            <dict>
-                <key>cell</key>
-                <string>PSLinkListCell</string>
-                <key>default</key>
-                <string>29</string>
-                <key>defaults</key>
-                <string>jp.r-plus.Sleipnizer</string>
-                <key>key</key>
-                <string>ULAction</string>
-                <key>label</key>
-                <string>UL Action</string>
-                <key>PostNotification</key>
-                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
-                <key>detail</key>
-                <string>GroupedListItemsController</string>
-                <key>id</key>
-                <string>ULAction</string>
-                <key>valuesDataSource</key>
-                <string>valuesSource:</string>
-                <key>titlesDataSource</key>
-                <string>titlesSource:</string>
-            </dict>
-            <dict>
-                <key>cell</key>
-                <string>PSLinkListCell</string>
-                <key>default</key>
-                <string>28</string>
-                <key>defaults</key>
-                <string>jp.r-plus.Sleipnizer</string>
-                <key>key</key>
-                <string>URAction</string>
-                <key>label</key>
-                <string>UR Action</string>
-                <key>PostNotification</key>
-                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
-                <key>detail</key>
-                <string>GroupedListItemsController</string>
-                <key>id</key>
-                <string>URAction</string>
-                <key>valuesDataSource</key>
-                <string>valuesSource:</string>
-                <key>titlesDataSource</key>
-                <string>titlesSource:</string>
-            </dict>
-            <dict>
-                <key>cell</key>
-                <string>PSLinkListCell</string>
-                <key>default</key>
-                <string>15</string>
-                <key>defaults</key>
-                <string>jp.r-plus.Sleipnizer</string>
-                <key>key</key>
-                <string>DLAction</string>
-                <key>label</key>
-                <string>DL Action</string>
-                <key>PostNotification</key>
-                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
-                <key>detail</key>
-                <string>GroupedListItemsController</string>
-                <key>id</key>
-                <string>DLAction</string>
-                <key>valuesDataSource</key>
-                <string>valuesSource:</string>
-                <key>titlesDataSource</key>
-                <string>titlesSource:</string>
-            </dict>
-            <dict>
-                <key>cell</key>
-                <string>PSLinkListCell</string>
-                <key>default</key>
-                <string>12</string>
-                <key>defaults</key>
-                <string>jp.r-plus.Sleipnizer</string>
-                <key>key</key>
-                <string>DRAction</string>
-                <key>label</key>
-                <string>DR Action</string>
-                <key>PostNotification</key>
-                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
-                <key>detail</key>
-                <string>GroupedListItemsController</string>
-                <key>id</key>
-                <string>DRAction</string>
-                <key>valuesDataSource</key>
-                <string>valuesSource:</string>
-                <key>titlesDataSource</key>
-                <string>titlesSource:</string>
-            </dict>
-            <dict>
-                <key>cell</key>
-                <string>PSGroupCell</string>
-                <key>label</key>
-                <string>"U" Letter Gestures</string>
-            </dict>
-            <dict>
-                <key>cell</key>
-                <string>PSSwitchCell</string>
-                <key>default</key>
-                <true/>
-                <key>defaults</key>
-                <string>jp.r-plus.Sleipnizer</string>
-                <key>key</key>
-                <string>ULetterGesturesEnabled</string>
-                <key>label</key>
-                <string>Enabled</string>
-                <key>PostNotification</key>
-                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
-            </dict>
-            <dict>
-                <key>cell</key>
-                <string>PSLinkListCell</string>
-                <key>default</key>
-                <string>0</string>
-                <key>defaults</key>
-                <string>jp.r-plus.Sleipnizer</string>
-                <key>key</key>
-                <string>ULDAction</string>
-                <key>label</key>
-                <string>ULD Action</string>
-                <key>PostNotification</key>
-                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
-                <key>detail</key>
-                <string>GroupedListItemsController</string>
-                <key>id</key>
-                <string>ULDAction</string>
-                <key>valuesDataSource</key>
-                <string>valuesSource:</string>
-                <key>titlesDataSource</key>
-                <string>titlesSource:</string>
-            </dict>
-            <dict>
-                <key>cell</key>
-                <string>PSLinkListCell</string>
-                <key>default</key>
-                <string>0</string>
-                <key>defaults</key>
-                <string>jp.r-plus.Sleipnizer</string>
-                <key>key</key>
-                <string>URDAction</string>
-                <key>label</key>
-                <string>URD Action</string>
-                <key>PostNotification</key>
-                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
-                <key>detail</key>
-                <string>GroupedListItemsController</string>
-                <key>id</key>
-                <string>URDAction</string>
-                <key>valuesDataSource</key>
-                <string>valuesSource:</string>
-                <key>titlesDataSource</key>
-                <string>titlesSource:</string>
-            </dict>
-            <dict>
-                <key>cell</key>
-                <string>PSLinkListCell</string>
-                <key>default</key>
-                <string>0</string>
-                <key>defaults</key>
-                <string>jp.r-plus.Sleipnizer</string>
-                <key>key</key>
-                <string>DLUAction</string>
-                <key>label</key>
-                <string>DLU Action</string>
-                <key>PostNotification</key>
-                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
-                <key>detail</key>
-                <string>GroupedListItemsController</string>
-                <key>id</key>
-                <string>DLUAction</string>
-                <key>valuesDataSource</key>
-                <string>valuesSource:</string>
-                <key>titlesDataSource</key>
-                <string>titlesSource:</string>
-            </dict>
-            <dict>
-                <key>cell</key>
-                <string>PSLinkListCell</string>
-                <key>default</key>
-                <string>0</string>
-                <key>defaults</key>
-                <string>jp.r-plus.Sleipnizer</string>
-                <key>key</key>
-                <string>DRUAction</string>
-                <key>label</key>
-                <string>DRU Action</string>
-                <key>PostNotification</key>
-                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
-                <key>detail</key>
-                <string>GroupedListItemsController</string>
-                <key>id</key>
-                <string>DRUAction</string>
-                <key>valuesDataSource</key>
-                <string>valuesSource:</string>
-                <key>titlesDataSource</key>
-                <string>titlesSource:</string>
-            </dict>
-            <dict>
-                <key>cell</key>
-                <string>PSGroupCell</string>
-                <key>label</key>
-                <string>Glitchy Gestures</string>
+                <string></string>
             </dict>
             <dict>
                 <key>cell</key>
                 <string>PSLinkCell</string>
                 <key>detail</key>
-                <string>SleipnizerLABGestureController</string>
-                <key>label</key>
-                <string>Glitchy Gestures</string>
-            </dict>
-            <dict>
-                <key>cell</key>
-                <string>PSGroupCell</string>
+                <string>SleipnizerJSActionController</string>
                 <key>label</key>
                 <string>JavaScript Action</string>
-                <key>footerText</key>
-                <string>The above list is Safari bookmarks that have "javascript" prefix. Sleipnizer will not change your bookmark even if modify your own code.</string>
-            </dict>
-<!--        Don't set id key below specifier!        -->
-            <dict>
-                <key>cell</key>
-                <string>PSLinkListCell</string>
-                <key>default</key>
-                <string></string>
-                <key>defaults</key>
-                <string>jp.r-plus.Sleipnizer</string>
-                <key>label</key>
-                <string>Safari Bookmarklet</string>
-                <key>key</key>
-                <string>JSAction</string>
-                <key>PostNotification</key>
-                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
-                <key>detail</key>
-                <string>PSListItemsController</string>
-                <key>valuesDataSource</key>
+                <key>SLKey</key>
+                <string>SLJSList</string>
+                <key>SLLabel</key>
+                <string>Bookmarklet</string>
+                <key>SLPlistName</key>
+                <string>JS</string>
+                <key>SLValuesSource</key>
                 <string>javascriptURLSource:</string>
-                <key>titlesDataSource</key>
+                <key>SLTitlesSource</key>
                 <string>javascriptTitleSource:</string>
-                <key>set</key>
-                <string>javascriptSetter:specifier:</string>
             </dict>
             <dict>
                 <key>cell</key>
-                <string>PSEditTextCell</string>
-                <key>defaults</key>
-                <string>jp.r-plus.Sleipnizer</string>
-                <key>key</key>
-                <string>JSAction</string>
-                <key>id</key>
-                <string>JSAction</string>
-                <key>PostNotification</key>
-                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
-                <key>placeholder</key>
-                <string>alert('edit this form');</string>
-                <key>default</key>
-                <string>alert('edit this form');</string>
+                <string>PSLinkCell</string>
+                <key>detail</key>
+                <string>SleipnizerOnLoadJSActionController</string>
+                <key>label</key>
+                <string>onLoad JavaScript</string>
+                <key>SLKey</key>
+                <string>SLOnLoadJSList</string>
+                <key>SLLabel</key>
+                <string>Bookmarklet</string>
+                <key>SLPlistName</key>
+                <string>onLoadJS</string>
+                <key>SLValuesSource</key>
+                <string>javascriptURLSource:</string>
+                <key>SLTitlesSource</key>
+                <string>javascriptTitleSource:</string>
             </dict>
             <!--
             <dict>
@@ -559,38 +318,6 @@
                 <string>PSGroupCell</string>
                 <key>label</key>
                 <string>Others</string>
-            </dict>
-            <dict>
-                <key>cell</key>
-                <string>PSLinkListCell</string>
-                <key>default</key>
-                <string>80</string>
-                <key>defaults</key>
-                <string>jp.r-plus.Sleipnizer</string>
-                <key>key</key>
-                <string>Sensitivity</string>
-                <key>label</key>
-                <string>Sensitivity (px)</string>
-                <key>PostNotification</key>
-                <string>jp.r-plus.SleipnizerforSafari.settingschanged</string>
-                <key>detail</key>
-                <string>PSListItemsController</string>
-                <key>validValues</key>
-                <array>
-                    <string>80</string>
-                    <string>100</string>
-                    <string>120</string>
-                    <string>160</string>
-                    <string>200</string>
-                </array>
-                <key>validTitles</key>
-                <array>
-                    <string>80 (default)</string>
-                    <string>100</string>
-                    <string>120</string>
-                    <string>160</string>
-                    <string>200 (insensitive)</string>
-                </array>
             </dict>
             <dict>
                 <key>cell</key>

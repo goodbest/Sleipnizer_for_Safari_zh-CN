@@ -47,7 +47,7 @@
       <string>33</string>
       <string>32</string>
       <string>39</string>
-      <string>18</string>
+      <string>49</string>
     </array>
 <!--    <array>-->
 <!--      <string>35</string>-->
@@ -64,6 +64,9 @@
 <!--      <string>30</string>-->
 <!--      <string>38</string>-->
 <!--      <string>99</string>-->
+    </array>
+    <array>
+      <string>18</string>
     </array>
   </array>
   <key>titles</key>
@@ -111,7 +114,7 @@
       <string>Add to Reading List</string>  <!-- 33 -->
       <string>Toggle Private Mode</string>  <!-- 32 -->
       <string>Toggle Reader View</string>  <!-- 39 -->
-      <string>Run JavaScript</string>  <!-- 18 -->
+      <string>Exit app</string>  <!-- 49 -->
     </array>
 <!--    <array>-->
 <!--      <string>Toggle FullScreen</string>  |+ 35 +|-->
@@ -129,6 +132,9 @@
 <!--            <string>Tweet</string>+|  |+ 38 -->
 <!--      <string>debug</string>  |+ 99 +|-->
     </array>
+    <array>
+      <string>Run JavaScript 1</string>  <!-- 18 -->
+    </array>
   </array>
   <key>sectionHeaders</key>
   <array>
@@ -138,6 +144,7 @@
     <string>Feature</string>
 <!--    <string>for iPad</string>-->
     <string>Relate Cydia Package</string>
+    <string>JavaScript</string>
   </array>
   <key>sectionFooters</key>
   <array>
@@ -147,6 +154,7 @@
     <string></string>
 <!--    <string></string>-->
     <string>Need to Download/Install via Cydia.</string>
+    <string></string>
   </array>
   <key>pl_filter</key>
   <array>
@@ -164,6 +172,7 @@
 <!--          <true/>-->
 <!--      </dict>-->
       <dict></dict><!-- RelateCydiaPackage -->
+      <dict></dict><!-- Javascript -->
   </array>
 </dict>
 </plist>
